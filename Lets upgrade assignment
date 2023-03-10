@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+    int M;
+    printf("Enter the value of M");
+    scanf("%d",&M);
+     if(M/5||M/3){
+        printf("Good Number\n"); }
+        if(M/5){
+            printf("Poor number\n");}
+            if(M/3){
+                printf("bad number\n");}
+            else{printf("M does not Qualify any above condition");}
+            return -1;}
